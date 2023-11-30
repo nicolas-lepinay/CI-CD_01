@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --reporters=jest-junit",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --config=./package.json",
     "test:coverage": "npm run test -- --coverage ",
     "start": "node src/index.js",
     "lint": "eslint src/*.js",
